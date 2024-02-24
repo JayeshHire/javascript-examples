@@ -58,6 +58,13 @@ let common_processes = 10; // number data type
 let controller_frequency = 9.23; // number data type
 let entropy = -2.09; // number data type
 ```
+	As we are learning about numbers now, we will often come around a situation where we will have to get a floating number upto a certain decimals. We can do this easily with the toFixed() method on the number
+```
+let num1 = 190.9872;
+let num2 = num1.toFixed(2);
+//the variable in num1 will be rounded upto two decimal places
+```
+
 **2. boolean: -**
 	All the boolean types such as true or false are stored inside the variables of boolean data type.
 ```
@@ -149,6 +156,14 @@ let color = {
 console.log(`Red color : ${color["red"]}`);
 ```
 From this example we can understand that how much Symbol data type is important in javascript for writing better programmes.
+
+While working with variables we often have to determine the type of the variable. Using the `typeof` operator we can determine the data type of the variable very easily.
+```
+let name = "Ved";
+let age = 20;
+console.log(`type of name : ${typeof name}`);
+console.log(`type of age : ${typeof age}`);
+```
 
 Here we reach to the end of this blog.
 In the next blog I will be covering topics like handling strings and some of their useful methods.
