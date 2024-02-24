@@ -51,23 +51,23 @@ SyntaxError: redeclaration of formal parameter "data_processed" ;
 #Data types in javascript
 Javascript is a dynamically typed language. This means that we don't have to explicitly mention the data type of the variable while defining the variable. The javascript engine automatically detects the data type of the variable before compiling it to the machine code. But it is necessary to get familiar with the common data types in javascript programming language.
 
-**1. number: -
+**1. number: -**
 	The number data type is used to store all different kinds of numerical types inside it. Whether it is integer, floating point, double or long all the numerical data types are stored inside this number data type.
 ```
 let common_processes = 10; // number data type
 let controller_frequency = 9.23; // number data type
 let entropy = -2.09; // number data type
 ```
-2. boolean: -
+**2. boolean: -**
 	All the boolean types such as true or false are stored inside the variables of boolean data type.
 ```
 let process_finished = true;
 let tool_available = false;
 ```
-3. null: -
+**3. null: -**
 	null value is the intentional abscence of an object. It is considered falsy for boolean operations.
 
-4. undefined: -
+**4. undefined: -**
 	While null is the abscence of object, undefined is the abscence of value. 
 	Following cases can return us undefined value: -
 		1. if we return nothing from a function
@@ -75,7 +75,7 @@ let tool_available = false;
 		3. if we declare a variable without initialising it
 		4. Many methods return undefined when no element is found
 
-5. BigInt: -
+**5. BigInt: -**
 	We can store numbers even beyond the max safe integer limit ( Number.MAX_SAFE_INTEGER ) using BigInt. We can do this by appending n to the number or by using the BigInt() function.
 
 Examples: -
@@ -89,7 +89,7 @@ console.log(Number.MAX_SAFE_LIMIT + 2 === Number.MAX_SAFE_LIMIT + 2);
 //not get the correct results for the values higher than the safe integer limit.
 ```
 
-6. string: -
+**6. string: -**
 	Any text or a series of characters can be stored in this data type.
 
 Example: -
@@ -100,7 +100,7 @@ let surname = "Chillale";
 //I will share more detailed uses of strings and some of it's widely used methods in the upcoming blogs.
 ```
 
-7. Symbol: -
+**7. Symbol: -**
 	Symbol data type is used for creating unique identifiers. These are used as a name of any property or they can be used as a key for the object. Every Symbol is different from one another. Symbol() function is used for creating symbols.
 
 Example: -	
@@ -147,7 +147,7 @@ let color = {
 //instead if we try accessing the property we will get the last assigned value to that property
 
 console.log(`Red color : ${color["red"]}`);
-```**
+```
 From this example we can understand that how much Symbol data type is important in javascript for writing better programmes.
 
 Here we reach to the end of this blog.
