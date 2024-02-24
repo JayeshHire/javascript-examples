@@ -1,4 +1,6 @@
-Here are some examples to understand and learn basic variables in javascript.
+# Variables and widely used data types in javascript
+
+## Here are some examples to understand and learn basic variables in javascript.
 
 ## instantiating variables in javascript using var keyword
 
@@ -49,7 +51,7 @@ SyntaxError: redeclaration of formal parameter "data_processed" ;
 #Data types in javascript
 Javascript is a dynamically typed language. This means that we don't have to explicitly mention the data type of the variable while defining the variable. The javascript engine automatically detects the data type of the variable before compiling it to the machine code. But it is necessary to get familiar with the common data types in javascript programming language.
 
-1. number: -
+**1. number: -
 	The number data type is used to store all different kinds of numerical types inside it. Whether it is integer, floating point, double or long all the numerical data types are stored inside this number data type.
 ```
 let common_processes = 10; // number data type
@@ -145,7 +147,7 @@ let color = {
 //instead if we try accessing the property we will get the last assigned value to that property
 
 console.log(`Red color : ${color["red"]}`);
-```
+```**
 From this example we can understand that how much Symbol data type is important in javascript for writing better programmes.
 
 Here we reach to the end of this blog.
